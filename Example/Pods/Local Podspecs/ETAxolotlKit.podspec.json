@@ -1,0 +1,22 @@
+{
+  "name": "ETAxolotlKit",
+  "version": "0.1.0",
+  "summary": "A short description of ETAxolotlKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ET0423WWW@163.com/ETAxolotlKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ET0423WWW@163.com": "et0423www@163.com"
+  },
+  "source": {
+    "git": "https://github.com/ET0423WWW@163.com/ETAxolotlKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ETAxolotlKit/Classes/**/*"
+}

@@ -18,25 +18,21 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A short description of ETAxolotlKit.
                        DESC
 
-  s.homepage         = 'https://github.com/ET0423WWW@163.com/ETAxolotlKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/feifu2023/ETAxolotlKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ET0423WWW@163.com' => 'et0423www@163.com' }
-  s.source           = { :git => 'https://github.com/ET0423WWW@163.com/ETAxolotlKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/feifu2023/ETAxolotlKit.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
+  s.frameworks = "Foundation","UIKit"
 
   s.source_files = 'ETAxolotlKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ETAxolotlKit' => ['ETAxolotlKit/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files   = "ETAxolotlKit/**/*.{h,m,swift}"
+  s.dependency 'Curve25519Kit'
+  s.dependency 'HKDFKit'
+
 end

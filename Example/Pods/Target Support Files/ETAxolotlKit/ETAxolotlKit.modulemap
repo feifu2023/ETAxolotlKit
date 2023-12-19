@@ -1,0 +1,6 @@
+framework module ETAxolotlKit {
+  umbrella header "ETAxolotlKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
