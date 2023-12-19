@@ -19,8 +19,8 @@
 #import "PreKeyWhisperMessage.h"
 #import "RatchetingSession.h"
 
-#import <Curve25519Kit/Curve25519.h>
-#import <Curve25519Kit/Ed25519.h>
+#import <ETCurve25519Kit/Curve25519.h>
+#import <ETCurve25519Kit/Ed25519.h>
 
 #import "PrekeyBundle.h"
 

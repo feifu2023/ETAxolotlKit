@@ -1,50 +1,32 @@
 PODS:
-  - ETAxolotlKit (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - iOSSnapshotTestCase (8.0.0):
-    - iOSSnapshotTestCase/SwiftSupport (= 8.0.0)
-  - iOSSnapshotTestCase/Core (8.0.0)
-  - iOSSnapshotTestCase/SwiftSupport (8.0.0):
-    - iOSSnapshotTestCase/Core
-  - Nimble (10.0.0)
-  - Nimble-Snapshots (9.4.0):
-    - Nimble-Snapshots/Core (= 9.4.0)
-  - Nimble-Snapshots/Core (9.4.0):
-    - iOSSnapshotTestCase (~> 8.0)
-    - Nimble
-  - Quick (2.2.1)
+  - ETAxolotlKit (0.1.0):
+    - ETCurve25519Kit
+    - HKDFKit
+    - SwiftProtobuf (~> 1.21.0)
+  - ETCurve25519Kit (2.0.2)
+  - HKDFKit (0.0.3)
+  - SwiftProtobuf (1.21.0)
 
 DEPENDENCIES:
   - ETAxolotlKit (from `../`)
-  - FBSnapshotTestCase (~> 2.1.4)
-  - Nimble (~> 10.0.0)
-  - Nimble-Snapshots (~> 9.4.0)
-  - Quick (~> 2.2.0)
 
 SPEC REPOS:
+  https://github.com/feifu2023/ETSpecs.git:
+    - ETCurve25519Kit
   trunk:
-    - FBSnapshotTestCase
-    - iOSSnapshotTestCase
-    - Nimble
-    - Nimble-Snapshots
-    - Quick
+    - HKDFKit
+    - SwiftProtobuf
 
 EXTERNAL SOURCES:
   ETAxolotlKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ETAxolotlKit: e41eb8aea324e405d2b4115f3e68187ef5f5818e
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
-  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
-  Nimble-Snapshots: ef281b908c604f78c8313587e25ea92c8ab513d7
-  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  ETAxolotlKit: f64bd712352860e199f4394b9fa9c83f7d3ca890
+  ETCurve25519Kit: 27627b4bd045cd7362450cd0d7c3536abf38f0e5
+  HKDFKit: c058305d6f64b84f28c50bd7aa89574625bcb62a
+  SwiftProtobuf: afced68785854575756db965e9da52bbf3dc45e7
 
-PODFILE CHECKSUM: 50d7799843ade0b25c6776be13d7e41dec18ce84
+PODFILE CHECKSUM: 2117c4de2ff501b5828c68c60e11a02cff3ba17d
 
 COCOAPODS: 1.12.1

@@ -2,8 +2,8 @@
   "name": "ETAxolotlKit",
   "version": "0.1.0",
   "summary": "A short description of ETAxolotlKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ET0423WWW@163.com/ETAxolotlKit",
+  "description": "A short description of ETAxolotlKit.",
+  "homepage": "https://github.com/feifu2023/ETAxolotlKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,28 @@
     "ET0423WWW@163.com": "et0423www@163.com"
   },
   "source": {
-    "git": "https://github.com/ET0423WWW@163.com/ETAxolotlKit.git",
+    "git": "https://github.com/feifu2023/ETAxolotlKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
-  "source_files": "ETAxolotlKit/Classes/**/*"
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "swift_versions": "5.0",
+  "source_files": "ETAxolotlKit/**/*.{h,m,swift}",
+  "dependencies": {
+    "ETCurve25519Kit": [
+
+    ],
+    "HKDFKit": [
+
+    ],
+    "SwiftProtobuf": [
+      "~> 1.21.0"
+    ]
+  },
+  "swift_version": "5.0"
 }

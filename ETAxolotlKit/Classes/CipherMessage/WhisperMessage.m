@@ -11,7 +11,7 @@
 #import "WhisperMessage.h"
 #import "NSData+keyVersionByte.h"
 #import "SerializationUtilities.h"
-#import <AxolotlKit/AxolotlKit-Swift.h>
+#import <ETAxolotlKit/ETAxolotlKit-Swift.h>
 
 #define VERSION_LENGTH 1
 

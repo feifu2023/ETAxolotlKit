@@ -1,0 +1,6 @@
+framework module ETCurve25519Kit {
+  umbrella header "ETCurve25519Kit-umbrella.h"
+
+  export *
+  module * { export * }
+}

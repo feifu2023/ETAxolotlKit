@@ -28,11 +28,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
   s.frameworks = "Foundation","UIKit"
-
-  s.source_files = 'ETAxolotlKit/Classes/**/*'
-
+  s.swift_version = '5.0'
+  
   s.source_files   = "ETAxolotlKit/**/*.{h,m,swift}"
-  s.dependency 'Curve25519Kit'
+  s.dependency 'ETCurve25519Kit'
   s.dependency 'HKDFKit'
+  s.dependency 'SwiftProtobuf', '~> 1.21.0'
 
 end

@@ -10,7 +10,7 @@
 #import "PreKeyWhisperMessage.h"
 #import "Constants.h"
 #import "SerializationUtilities.h"
-#import <AxolotlKit/AxolotlKit-Swift.h>
+#import <ETAxolotlKit/ETAxolotlKit-Swift.h>
 
 
 @interface PreKeyWhisperMessage ()
